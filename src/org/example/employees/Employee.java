@@ -6,11 +6,11 @@ public class Employee {
      int empId;
      String department;
      double salary;
-    // I have to choices for constructor
-   /* public Employee(){
+    // I have two choices for constructor
+   public Employee(){
         id++;
         empId = id;
-    }*/
+    }
     public Employee(String name, String department, double salary){
         id++;
         empId = id;

@@ -6,13 +6,13 @@ import java.util.Scanner;
 
 public class EmployeeMain {
     public static void main(String[] args) {
-        /*
+
         Employee employee = new Employee();
-        employee.name = "Vaibhav";
-        employee.empId = 12;// by mistake update, because its accessible
-        employee.department = "Accounts";
-        employee.salary = 20000;
-        */
+        employee.display();
+        //employee.name = "Vaibhav";
+        //employee.empId = 12;// by mistake update, because its accessible
+        //employee.department = "Accounts";
+        //employee.salary = 20000;
       /*
         Employee employee1 = new Employee("Vaibhav", "Accounts", 20000);
         Employee employee2 = new Employee("Ramesh", "HR", 50000);
@@ -27,7 +27,7 @@ public class EmployeeMain {
         */
         //array
         //type[] arrayName;
-        Employee[] employees = new Employee[5];
+       /* Employee[] employees = new Employee[5];
         int[] marks = new int[5];
         System.out.println(Arrays.toString(marks));
         System.out.println(Arrays.toString(employees));
@@ -47,6 +47,6 @@ public class EmployeeMain {
         for (int i = 0; i < employees.length; i++) {
             employees[i].display();
             System.out.println();
-        }
+        }*/
     }
 }
